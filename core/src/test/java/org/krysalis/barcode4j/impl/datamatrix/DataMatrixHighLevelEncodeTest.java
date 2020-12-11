@@ -94,13 +94,13 @@ public class DataMatrixHighLevelEncodeTest extends TestCase {
         //Alternative solution:
         //assertEquals("230 91 11 91 11 91 11 11 9 254", visualized);
         //Expl: 230 = shift to C40, "91 11" = "AIM",
-        //"11 9" = "�" = "Shift 2, UpperShift, <char>
+        //"11 9" = "Ë" = "Shift 2, UpperShift, <char>
         //"else" case
 
         visualized = encodeHighLevel("AIMAIMAIMë");
         assertEquals("230 91 11 91 11 91 11 254 235 108", visualized); //Activate when additional rectangulars are available
         //Expl: 230 = shift to C40, "91 11" = "AIM",
-        //"�" in C40 encodes to: 1 30 2 11 which doesn't fit into a triplet
+        //"ë" in C40 encodes to: 1 30 2 11 which doesn't fit into a triplet
         //"10 243" =
         //254 = unlatch, 235 = Upper Shift, 108 = � = 0xEB/235 - 128 + 1
         //"else" case

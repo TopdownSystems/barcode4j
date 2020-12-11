@@ -25,7 +25,7 @@ import org.krysalis.barcode4j.ClassicBarcodeLogicHandler;
 /**
  * This class is an implementation of the EAN 128 barcode.
  *
- * @author Dietmar B�rkle, Jeremias Maerki (generateBarcodeLogic)
+ * @author Dietmar Bürkle, Jeremias Maerki (generateBarcodeLogic)
  */
 public class EAN128LogicImpl { //extends Code128LogicImpl{
     private static final byte MAX_LENGTH = 48; // Max according to EAN128 specification.

@@ -24,7 +24,7 @@ import java.util.StringTokenizer;
 /**
  * This class keeps Informations about EAN 128 Application Identifiers (AIs).
  * 
- * @author Dietmar B�rkle
+ * @author Dietmar Bürkle
  */
 public class EAN128AI {
     

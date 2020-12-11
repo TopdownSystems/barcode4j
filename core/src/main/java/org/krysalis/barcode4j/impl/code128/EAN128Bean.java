@@ -26,7 +26,7 @@ import org.krysalis.barcode4j.output.CanvasProvider;
 /**
  * This class is an implementation of the Code 128 barcode.
  * 
- * @author Jeremias Maerki, Dietmar B�rkle
+ * @author Jeremias Maerki, Dietmar Bürkle
  */
 public class EAN128Bean extends Code128Bean {
 

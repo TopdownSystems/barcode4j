@@ -34,7 +34,6 @@ public class USPSIntelligentMailTest extends TestCase {
 
     public void testCharLookupTableInitialization() throws Exception {
         //random/spot checks
-        System.out.println(USPSIntelligentMailLogicImpl.TABLE5OF13[0]);
         assertEquals(31, USPSIntelligentMailLogicImpl.TABLE5OF13[0]);
         assertEquals(7936, USPSIntelligentMailLogicImpl.TABLE5OF13[1]);
         assertEquals(47, USPSIntelligentMailLogicImpl.TABLE5OF13[2]);

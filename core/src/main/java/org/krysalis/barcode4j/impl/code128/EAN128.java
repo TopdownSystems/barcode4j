@@ -26,7 +26,7 @@ import org.krysalis.barcode4j.tools.Length;
 /**
  * This class is an implementation of the Code 128 barcode.
  * 
- * @author Jeremias Maerki, Dietmar B�rkle
+ * @author Jeremias Maerki, Dietmar Bürkle
  */
 public class EAN128 extends Code128 
             implements Configurable {
