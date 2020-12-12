@@ -123,7 +123,7 @@ public class EAN128AI {
                 // ResourceBundle does this job. It seems to have more privileges. 
                 // It is not the best choice (as we never want to translate EAN128AIs.properties),
                 // but it works.
-                String rbName = /*EAN128AI.class.getPackage().getName() + "." + */ bundlename;
+                String rbName = EAN128AI.class.getPackage().getName() + "." + bundlename;
                 ResourceBundle rb = ResourceBundle.getBundle(rbName);
                 Enumeration keys = rb.getKeys();
                 while (keys.hasMoreElements()){
