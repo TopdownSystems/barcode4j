@@ -1,0 +1,14 @@
+# Mac/OSX
+.DS_Store
+# Windows
+Thumbs.db
+
+build
+target
+.AppleDouble
+
+.idea/
+*.iml
+*.iws
+*.project
+
