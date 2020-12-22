@@ -1,3 +1,5 @@
+echo currentBuild.changeSets.toString()
+
 pipeline {
   agent {
     label "jenkins-maven"
