@@ -41,11 +41,11 @@
     <distributionManagement>
         <snapshotRepository>
             <id>td-snapshots</id>
-            <url>https://nexus-jx.td-dev-second.com/repository/maven-snapshots</url>
+            <url>http://nexus/repository/maven-snapshots</url>
         </snapshotRepository>
         <repository>
-            <id>td-release</id>
-            <url>https://nexus-jx.td-dev-second.com/repository/maven-releases</url>
+            <id>td-releases</id>
+            <url>http://nexus/repository/maven-releases</url>
         </repository>
     </distributionManagement>
     <build>
